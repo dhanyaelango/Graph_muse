@@ -1,0 +1,69 @@
+[{
+    "objects": ["bus", "street", "line", "sky"],
+    "relationships": [
+      [0, "on", 1],
+      [2, "on", 1],
+      [3, "above", 1]
+      
+    ]
+  },
+{
+    "objects": ["bus", "street", "line", "sky", "kite"],
+    "relationships": [
+      [0, "on", 1],
+      [2, "on", 1],
+      [3, "above", 1],
+      [4, "in", 3]
+
+    ]
+  },
+	{
+		"objects": [
+			"wheel",  "grass"
+		],
+
+		"relationships": [
+			[0, "on", 1]
+		]
+	},
+	{
+		"objects": [
+			"plane", "sky", "grass"
+		],
+
+		"relationships": [
+			[0, "on", 1],
+			[2, "under", 1]
+		]
+	},
+	{
+		"objects": [
+			"clock", "couch"
+		],
+
+		"relationships": [
+			[0, "above", 1]
+		]
+	},
+ {
+		"objects": [
+			"building", "a pond"
+		],
+
+		"relationships": [
+			[1, "near", 0]
+		]
+	},
+  {
+		"objects": [
+			"grass", "a box of cereal", "orange"
+		],
+
+		"relationships": [
+			[1, "on", 0],
+            [1, "behind", 2]
+            
+		]
+	}
+
+]
